@@ -26,7 +26,7 @@ const Cart = ({ cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart }) => {
     <>
       <Grid container spacing={3}>
         {cart.line_items.map((lineItem) => (
-          <Grid item xs={12} sm={4} key={lineItem.id}>
+          <Grid item xs={12} sm={6} md={4} key={lineItem.id}>
             <CartItem
               item={lineItem}
               onUpdateCartQty={onUpdateCartQty}
