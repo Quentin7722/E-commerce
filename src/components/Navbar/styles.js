@@ -65,4 +65,10 @@ export default makeStyles((theme) => ({
       width: "20ch",
     },
   },
+  button: {
+    "&:hover": {
+      background: "rgb(192,192,192)",
+      borderRadius: "50%",
+    },
+  },
 }));

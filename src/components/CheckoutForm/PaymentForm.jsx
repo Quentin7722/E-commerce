@@ -8,6 +8,7 @@ import {
 import { loadStripe } from "@stripe/stripe-js";
 
 import Review from "./Review";
+import AlertDialog from "./AlertDialog";
 
 const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_KEY);
 
@@ -65,6 +66,7 @@ const PaymentForm = ({
 
   return (
     <>
+      <AlertDialog />
       <Review checkoutToken={checkoutToken} />
       <Divider />
       <Typography variant="h6" gutterBottom style={{ margin: "20px 0" }}>
