@@ -42,7 +42,11 @@ const PrimarySearchAppBar = ({ totalItems }) => {
           aria-label="Show cart items"
           color="inherit"
         >
-          <Badge badgeContent={totalItems} color="secondary">
+          <Badge
+            badgeContent={totalItems}
+            color="secondary"
+            overlap="rectangular"
+          >
             <ShoppingCart />
           </Badge>
         </IconButton>
@@ -79,7 +83,11 @@ const PrimarySearchAppBar = ({ totalItems }) => {
                 aria-label="Show cart items"
                 color="inherit"
               >
-                <Badge badgeContent={totalItems} color="secondary">
+                <Badge
+                  badgeContent={totalItems}
+                  color="secondary"
+                  overlap="rectangular"
+                >
                   <ShoppingCart />
                 </Badge>
               </IconButton>

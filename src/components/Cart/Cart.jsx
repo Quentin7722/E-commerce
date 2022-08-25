@@ -36,9 +36,7 @@ const Cart = ({ cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart }) => {
         ))}
       </Grid>
       <div className={classes.cardDetails}>
-        <Typography variant="h4">
-          Subtotal: {cart.subtotal.formatted_with_symbol}
-        </Typography>
+        <Typography variant="h4">Total: {cart.subtotal.formatted} €</Typography>
         <div>
           <Button
             className={classes.emptyButton}
