@@ -76,7 +76,7 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex", minHeight: "calc(100vh - 50px)" }}>
         <CssBaseline />
         <Navbar
           totalItems={cart.total_items}
@@ -117,6 +117,11 @@ const App = () => {
             }
           />
         </Routes>
+      </div>
+      <div
+        style={{ display: "flex", justifyContent: "center", padding: "10px" }}
+      >
+        <small>&copy; Copyright 2022, Quentin. All Rights Reserved</small>
       </div>
     </BrowserRouter>
   );
