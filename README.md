@@ -31,6 +31,6 @@ Lancez la commande `npm start` depuis le répertoire du projet.
 
 **Dernière version :** 0.1
 
-## Auteurs
+## Auteur
 
 - **Quentin Cuoc** _alias_ [@Quentin7722](https://github.com/Quentin7722)
