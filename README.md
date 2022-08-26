@@ -2,7 +2,7 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
-Site e-commerce construit avec React.js, Commerce.js, Stripe, MUI et react-hook-form.
+Site e-commerce construit avec React.js, Commerce.js, Stripe, MUI et React Hook Form.
 
 ## Pour commencer
 
@@ -22,9 +22,11 @@ Lancez la commande `npm start` depuis le répertoire du projet.
 
 ## Fabriqué avec
 
-- [React.js](https://fr.reactjs.org/) - Une bibliothèque JavaScript pour créer des interfaces utilisateurs
-- [Commerce.js](https://commercejs.com/) - Commerce SDK et APIs
-- [MUI](https://mui.com/) - Bibliothèque de composants React
+- [React.js](https://fr.reactjs.org/) - A JavaScript library for building user interfaces
+- [Commerce.js](https://commercejs.com/) - Flexible commerce engine that gives businesses the freedom to innovate and grow
+- [MUI](https://mui.com/) - Provides a simple, customizable, and accessible library of React components. 
+- [React Hook Form](https://react-hook-form.com/) -  Performant, flexible and extensible forms library for React Hooks
+
 ## Versions
 
 **Dernière version :** 0.1
